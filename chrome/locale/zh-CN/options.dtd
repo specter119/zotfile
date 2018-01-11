@@ -64,7 +64,7 @@
 <!ENTITY add-full-citation "在笔记中添加完整的到高亮文本片段的文内引用">
 <!ENTITY use-article-book-chapter-page "对高亮文本片段使用真实的文章/书的章节页">
 <!ENTITY page-number-determination "文章的页数由pdf文档的页数和Zotero元数据的‘页码’项中首页的数字相加而来。如果PDF文档的首页不是文章/书的章节的首页，这一方法会失败">
-<!ENTITY other-advanced-settings "Other Advanced Settings">
+<!ENTITY other-advanced-settings "其他高级设置">
 
 <!ENTITY watch_folder "监视源文件夹的新文件">
 
