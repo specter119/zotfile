@@ -77,7 +77,7 @@
 <!ENTITY ask-when-attaching-new-files "在附加新文件时询问用户">
 <!ENTITY ask-to-batch-rename "（批量）重命名或移动时询问用户">
 <!ENTITY or-more-attachments " 或更多附件。">
-<!ENTITY remove-special-characters "从文件名中移除特殊字符（变音符号">
+<!ENTITY remove-special-characters "从文件名中移除特殊字符（变音符号）">
 <!ENTITY work-with-following-filetypes "仅对下列文件类型生效：">
 <!ENTITY add-saved-searches "添加保存的搜索">
 <!ENTITY attachments-on-tablet "平板上的附件">
