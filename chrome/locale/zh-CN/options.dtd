@@ -1,5 +1,5 @@
-<!ENTITY zotfile-preferences "ZotFile选项"> 
-<!ENTITY zotfile-prefpane "ZotFile选项"> 
+<!ENTITY zotfile-preferences "ZotFile 首选项"> 
+<!ENTITY zotfile-prefpane "ZotFile 首选项"> 
 <!ENTITY general-settings "常规设置"> 
 <!ENTITY tablet-settings "平板设置"> 
 <!ENTITY renaming-rules "重命名规则"> 
@@ -8,7 +8,7 @@
 <!ENTITY source-folder-desc "ZotFile可以从一个文件夹，例如“下载”文件夹，添加最近更改过的文件为当前选中的Zotero条目的附件。"> 
 <!ENTITY use-firefox-download-folder "使用Firefox下载文件夹"> 
 <!ENTITY custom-source-folder "自定义："> 
-<!ENTITY choose "选择……"> 
+<!ENTITY choose "选择..."> 
 <!ENTITY location-of-files "文件位置"> 
 <!ENTITY target-location-desc "ZotFile可以将新的和已有的附件移动到不同位置。您可以存储您的附件的副本到Zotero以使其与Zotero服务器同步，或者移动文件到一个自定义文件夹并从Zotero链接到那个位置。">
 <!ENTITY attach-stored-copy "附加已存储的文件副本"> 
