@@ -4,7 +4,9 @@ var OpenPDFExtension = {
 
     doAction: Zotero.Promise.coroutine(function* (uri) {
         // get arguments from uri
-        // e.g. zotero://open-pdf/0_EFWJW9U7
+        // New format: zotero://open-pdf/library/items/[itemKey]?page=[page]
+        //             zotero://open-pdf/groups/[groupID]/items/[itemKey]?page=[page]
+        // Old format: zotero://open-pdf/0_EFWJW9U7
         Zotero.ZotFile.uri = uri;
         // parsing code copied from Zotero
         // https://github.com/zotero/zotero/blob/60e0d79e01bf83daf8682c0bc088fbeaba496198/components/zotero-protocol-handler.js#L1017-L1049
@@ -29,7 +31,7 @@ var OpenPDFExtension = {
         router.add('groups/:groupID/items/:objectKey');
         
         // ZotFile URLs
-        router.add(':id/:pathPage', function () {
+        router.add(':id/:page', function () {
             var lkh = Zotero.Items.parseLibraryKeyHash(params.id);
             if (!lkh) {
                 Zotero.warn(`Invalid URL ${url}`);
@@ -42,7 +44,7 @@ var OpenPDFExtension = {
         router.run(uriPath);
         
         Zotero.API.parseParams(params);
-        var page = params.pathPage || params.page;
+        var page = params.page;
         var results = yield Zotero.API.getResultsFromParams(params);
         if (results.length == 0) return;
         var item = results[0];
