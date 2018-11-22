@@ -17,7 +17,7 @@
 <!ENTITY send-to-subfolder-on-tablet "发送至平板上的子文件夹">
 <!ENTITY change-subfolders "更改子文件夹...">
 <!ENTITY add-and-delete-subfolders "从菜单中添加或删除子文件夹">
-<!ENTITY zotfile-options.label "ZotFile 首选项...">
+<!ENTITY zotfile-options.label "ZotFile首选项...">
 <!ENTITY saved-search-all "显示来自所有子文件夹的附件">
 <!ENTITY saved-search-restrict "限定搜索结果至子文件夹">
 <!ENTITY restrict-subfolder "限定至子文件夹...">
